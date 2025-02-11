@@ -17,7 +17,7 @@
 
 body {
     height: 100vh;
-    background-color: var(--color-primary);
+    background-image: url("./assets/58ad5e846187a56d97c2d247dc0956f6.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,9 @@ body {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color: rgb(255, 255, 255);
+    background-color: #e596f365;
+    border-radius: 30%;
 }
 
 .section-title {
@@ -116,13 +118,13 @@ button {
 }
 
 .button-add {
-    background-color: var(--color-tertiary);
-    color: var(--color-text);
+    background-color: rgb(0, 0, 0);
+    color: #FFF9EB;
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #4801ee;
 }
 
 /* Listas */
@@ -149,7 +151,7 @@ ul {
     width: 100%;
     padding: 10px 40px;
     color: var(--color-white);
-    background-color: var(--color-button);
+    background-color: blueviolet;
     font-size: 16px;
 }
 
@@ -158,5 +160,5 @@ ul {
 }
 
 .button-draw:hover {
-    background-color: var(--color-button-hover);
+    background-color: rgb(21, 21, 21) ;
 }
